@@ -10,6 +10,8 @@ python3 server.py
 
 Open [http://localhost:8000](http://localhost:8000). No packages need to be installed.
 
+Open [http://localhost:8000/design-system.html](http://localhost:8000/design-system.html) for the standalone Material design system reference, including typography, color roles, responsive grid, components, states, and accessibility guidance.
+
 ## Dummy data and API
 
 The prototype data is stored in `data/dummy_data.json` and includes five reservations and five vehicles covering ready, equipment-gap, substitution, blocked, and stale-card scenarios.

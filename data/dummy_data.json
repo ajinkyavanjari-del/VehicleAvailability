@@ -1,0 +1,16 @@
+{
+  "reservations": [
+    {"id":"RA-10482","status":"urgent","customer":"Maya Chen","pickup":"Today, 09:30","window":"now","category":"SUV","equipment":["Child seat","Snow chains"],"confidence":"High","location":"Denver Yard A"},
+    {"id":"RA-10483","status":"unassigned","customer":"Owen Patel","pickup":"Today, 11:00","window":"today","category":"Compact","equipment":["GPS"],"confidence":"Medium","location":"Denver Yard A"},
+    {"id":"RA-10484","status":"in progress","customer":"Ava Wilson","pickup":"Today, 13:15","window":"today","category":"Van","equipment":["Hand controls","Roof rack"],"confidence":"Low","location":"Denver Yard B"},
+    {"id":"RA-10485","status":"assigned","customer":"Noah García","pickup":"Tomorrow, 08:00","window":"tomorrow","category":"Sedan","equipment":["None"],"confidence":"High","location":"Denver Yard A"},
+    {"id":"RA-10486","status":"unassigned","customer":"Priya Nair","pickup":"Tomorrow, 16:30","window":"tomorrow","category":"SUV","equipment":["Ski rack"],"confidence":"Medium","location":"Denver Yard C"}
+  ],
+  "vehicles": [
+    {"id":"VH-7821","type":"SUV Premium","location":"Aisle 4 · Bay 12","mileage":"18,420 mi","note":"Ready now","status":"ready","best":true,"sub":"","to":"SUV Premium","equipment":[["Child seat","staged"],["Snow chains","staged"]],"elig":[true,true,true,true,true]},
+    {"id":"VH-4408","type":"SUV Standard","location":"Aisle 2 · Bay 03","mileage":"26,110 mi","note":"Chains pending","status":"gap","best":false,"sub":"","to":"SUV Standard","equipment":[["Child seat","staged"],["Snow chains","unconfirmed"]],"elig":[true,true,true,true,false]},
+    {"id":"VH-9910","type":"Luxury SUV","location":"Adjacent yard","mileage":"9,850 mi","note":"Upgrade available","status":"ready","best":false,"sub":"Upgrade","to":"Luxury SUV","equipment":[["Child seat","staged"],["Snow chains","staged"]],"elig":[true,true,true,true,true]},
+    {"id":"VH-3004","type":"SUV Standard","location":"Detail bay","mileage":"31,202 mi","note":"Cleaning hold","status":"blocked","best":false,"sub":"","to":"SUV Standard","equipment":[["Child seat","missing"],["Snow chains","missing"]],"elig":[true,false,true,false,false]},
+    {"id":"VH-5529","type":"Compact","location":"Aisle 1 · Bay 01","mileage":"14,402 mi","note":"Downgrade exception","status":"gap","best":false,"sub":"Downgrade","to":"Compact","equipment":[["Child seat","staged"],["Snow chains","missing"]],"elig":[true,true,false,true,false]}
+  ]
+}

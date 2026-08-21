@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Vehicle Availability Material design system reference">
+  <title>Vehicle Availability | Design system</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Roboto+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/tabler-icons.min.css">
+  <link rel="stylesheet" href="src/design-system.css">
+</head>
+<body>
+  <header class="ds-topbar">
+    <a class="ds-brand" href="index.html"><span class="ds-mark"><i class="ti ti-steering-wheel" aria-hidden="true"></i></span><span>Vehicle Availability</span></a>
+    <a class="ds-back" href="index.html"><i class="ti ti-arrow-left" aria-hidden="true"></i> Back to app</a>
+  </header>
+
+  <main class="ds-shell">
+    <section class="ds-intro" aria-labelledby="page-title">
+      <p class="ds-eyebrow">Material 3 / system reference</p>
+      <h1 id="page-title">Design system</h1>
+      <p class="ds-lede">A calm, adaptive interface language for high-trust vehicle operations. Built for scanning on desktop, confident touch on mobile, and clear feedback at every step.</p>
+      <div class="ds-meta"><span><i class="ti ti-accessible" aria-hidden="true"></i> WCAG 2.0 AA intent</span><span><i class="ti ti-layout-grid" aria-hidden="true"></i> Responsive by default</span><span><i class="ti ti-sparkles" aria-hidden="true"></i> CES-informed interaction</span></div>
+    </section>
+
+    <section class="ds-section" aria-labelledby="principles-title">
+      <div class="ds-section-head"><div><p class="ds-eyebrow">01 / foundations</p><h2 id="principles-title">Design principles</h2></div><p class="ds-section-note">Make complexity legible, and system feedback trustworthy.</p></div>
+      <div class="principle-grid">
+        <article><i class="ti ti-radar" aria-hidden="true"></i><h3>Context first</h3><p>Show the reservation, vehicle, and next decision together so operators do not have to reconstruct context.</p></article>
+        <article><i class="ti ti-hand-click" aria-hidden="true"></i><h3>Tactile clarity</h3><p>Controls use generous targets, visible state layers, and familiar Material shapes for confident touch.</p></article>
+        <article><i class="ti ti-shield-check" aria-hidden="true"></i><h3>Trustworthy states</h3><p>Success, warning, unavailable, and loading states are explicit and never depend on color alone.</p></article>
+      </div>
+    </section>
+
+    <section class="ds-section" aria-labelledby="type-title">
+      <div class="ds-section-head"><div><p class="ds-eyebrow">02 / typography</p><h2 id="type-title">Type scale</h2></div><p class="ds-section-note">Roboto supports fast scanning; Roboto Mono reserves space for operational IDs.</p></div>
+      <div class="type-samples">
+        <div class="type-row"><span class="type-label">Display / 40</span><div class="type-display">Handover ready</div></div>
+        <div class="type-row"><span class="type-label">Headline / 28</span><h3 class="type-headline">Reservation queue</h3></div>
+        <div class="type-row"><span class="type-label">Title / 18</span><h4 class="type-title">Vehicle recommendation</h4></div>
+        <div class="type-row"><span class="type-label">Body / 14</span><p class="type-body">Vehicles awaiting assignment at Denver Yard. Use this level for readable operational context.</p></div>
+        <div class="type-row"><span class="type-label">Label / 12</span><span class="type-label sample-label">MATCH CONFIDENCE</span></div>
+        <div class="type-row"><span class="type-label">Mono / 14</span><span class="type-mono">RA-10482 / VH-7821</span></div>
+      </div>
+    </section>
+
+    <section class="ds-section" aria-labelledby="color-title">
+      <div class="ds-section-head"><div><p class="ds-eyebrow">03 / color roles</p><h2 id="color-title">Tonal palette</h2></div><p class="ds-section-note">Color carries meaning, while icons and labels carry the message.</p></div>
+      <div class="swatches">
+        <div class="swatch swatch-surface"><span>Surface</span><b>#F8F9FF</b></div><div class="swatch swatch-container"><span>Container</span><b>#EEF0F7</b></div><div class="swatch swatch-accent"><span>Primary action</span><b>#0061A4</b></div><div class="swatch swatch-success"><span>Success</span><b>#176B32</b></div><div class="swatch swatch-warning"><span>Warning</span><b>#745000</b></div><div class="swatch swatch-danger"><span>Error</span><b>#BA1A1A</b></div>
+      </div>
+    </section>
+
+    <section class="ds-section" aria-labelledby="grid-title">
+      <div class="ds-section-head"><div><p class="ds-eyebrow">04 / layout</p><h2 id="grid-title">Responsive grid</h2></div><p class="ds-section-note">12 columns desktop, 4 tablet, 1 mobile. 16px base gap; content owns the width.</p></div>
+      <div class="grid-demo" aria-label="Responsive grid example"><span>1</span><span>2</span><span>3</span><span>4</span><span>5</span><span>6</span><span>7</span><span>8</span><span>9</span><span>10</span><span>11</span><span>12</span></div>
+      <div class="spacing-row"><div><span class="space space-4"></span><b>4</b><small>icon gap</small></div><div><span class="space space-8"></span><b>8</b><small>control gap</small></div><div><span class="space space-16"></span><b>16</b><small>section gap</small></div><div><span class="space space-24"></span><b>24</b><small>page padding</small></div><div><span class="space space-32"></span><b>32</b><small>large rhythm</small></div></div>
+    </section>
+
+    <section class="ds-section" aria-labelledby="components-title">
+      <div class="ds-section-head"><div><p class="ds-eyebrow">05 / components</p><h2 id="components-title">Core components</h2></div><p class="ds-section-note">Material shapes, visible hierarchy, and states designed for repeated work.</p></div>
+      <div class="component-grid">
+        <article class="showcase"><h3>Buttons</h3><div class="button-row"><button class="btn">Assign vehicle <i class="ti ti-arrow-right" aria-hidden="true"></i></button><button class="secondary">Print summary</button><button class="text-button">View details</button><button class="btn" disabled>Unavailable</button></div></article>
+        <article class="showcase"><h3>Selection fields</h3><div class="field-row"><label>Pickup window<select><option>Today</option><option>Tomorrow</option></select></label><label>Category<select><option>SUV</option><option>Compact</option></select></label></div></article>
+        <article class="showcase"><h3>Chips and status</h3><div class="chip-row"><span class="chip neutral"><i class="ti ti-clock" aria-hidden="true"></i> Unassigned</span><span class="chip accent">High confidence</span><span class="chip success"><i class="ti ti-check" aria-hidden="true"></i> Ready</span><span class="chip medium"><i class="ti ti-alert-triangle" aria-hidden="true"></i> Review</span><span class="chip danger"><i class="ti ti-x" aria-hidden="true"></i> Blocked</span></div></article>
+        <article class="showcase"><h3>Operational card</h3><div class="demo-card"><div><span class="mono">RA-10482</span><span class="chip medium">Urgent</span></div><strong>Maya Chen</strong><p>Today, 09:30 <span class="dot">•</span> SUV</p><div class="card-footer"><span>Child seat / Snow chains</span><button class="btn">Assign</button></div></div></article>
+        <article class="showcase"><h3>Feedback</h3><div class="feedback-stack"><div class="feedback ok"><i class="ti ti-circle-check" aria-hidden="true"></i><span><b>All equipment staged</b><small>Vehicle can proceed to handover.</small></span></div><div class="feedback warn"><i class="ti ti-alert-triangle" aria-hidden="true"></i><span><b>Equipment gap</b><small>Review and acknowledge the exception.</small></span></div><div class="feedback error"><i class="ti ti-alert-circle" aria-hidden="true"></i><span><b>Could not load vehicles</b><small>Try again or escalate to a supervisor.</small></span></div></div></article>
+        <article class="showcase"><h3>Progressive states</h3><div class="loading-demo"><span class="spinner" aria-hidden="true"></span><span>Finding available vehicles...</span></div><div class="empty-demo"><i class="ti ti-search-off" aria-hidden="true"></i><span>No reservations match these filters.</span></div></article>
+      </div>
+    </section>
+
+    <section class="ds-section" aria-labelledby="access-title">
+      <div class="ds-section-head"><div><p class="ds-eyebrow">06 / accessibility</p><h2 id="access-title">Accessibility contract</h2></div><p class="ds-section-note">A system is only useful when every operator can read, reach, and understand it.</p></div>
+      <div class="access-grid"><div><i class="ti ti-focus-2" aria-hidden="true"></i><h3>Keyboard visible</h3><p>Every interactive element has a 3px high-contrast focus ring with a 3px offset.</p></div><div><i class="ti ti-hand-finger" aria-hidden="true"></i><h3>Touch ready</h3><p>Primary controls are at least 44px tall and spacing prevents accidental activation.</p></div><div><i class="ti ti-eye" aria-hidden="true"></i><h3>Meaningful contrast</h3><p>Text and semantic controls use dark role colors on light tonal surfaces; status includes icon and label.</p></div><div><i class="ti ti-player-pause" aria-hidden="true"></i><h3>Motion aware</h3><p>Loading and transitions honor <code>prefers-reduced-motion</code>; forced colors remain supported.</p></div></div>
+    </section>
+  </main>
+  <footer class="ds-footer"><span>Vehicle Availability design system</span><span>Material 3 foundation / version 1.0</span></footer>
+</body>
+</html>
